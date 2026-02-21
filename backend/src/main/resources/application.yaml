@@ -15,8 +15,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/db_travel?serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
-    username: root
-    password: 123456
+    username: travel
+    password: travel123
     # 连接池
     hikari:
       minimum-idle: 5 # 最小空闲连接数
