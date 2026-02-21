@@ -1,0 +1,23 @@
+# 论文相关
+generate_thesis.py
+*.docx
+
+# 前端构建产物和依赖
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# 后端构建产物
+backend/target/
+backend/.mvn/
+backend/*.iml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
