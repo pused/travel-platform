@@ -35,7 +35,7 @@ const isCollapse = ref(false);
     overflow: hidden;
     transition: width 0.3s;
     background-color: #fff;
-    border-right: 1px solid #dcdfe6;
+    border-right: 1px solid var(--border-light);
     box-shadow: 2px 0 8px 0 rgba(29, 35, 41, 0.05);
 
     &.is-collapse {
@@ -49,7 +49,7 @@ const isCollapse = ref(false);
     flex-direction: column;
     overflow: hidden;
     overflow-y: auto;
-    background-color: #f0f2f5;
+    background-color: var(--bg-tertiary);
 
     .page-container {
       padding: 16px;

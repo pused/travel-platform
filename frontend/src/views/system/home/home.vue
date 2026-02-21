@@ -78,7 +78,7 @@ onMounted(() => {
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: #e4e7ed;
+  background-color: var(--border-light);
 }
 
 .timeline-item {

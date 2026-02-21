@@ -1050,7 +1050,7 @@ onUnmounted(() => {
       background: linear-gradient(135deg, var(--primary-50) 0%, var(--accent-50) 100%);
       border-radius: 16px;
       border: 2px solid var(--primary-200);
-      box-shadow: 0 4px 16px rgba(30, 144, 255, 0.1);
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.1);
 
       .quantity-selector {
         display: flex;
@@ -1074,7 +1074,7 @@ onUnmounted(() => {
 
             &:hover {
               border-color: var(--primary-400);
-              box-shadow: 0 2px 8px rgba(30, 144, 255, 0.1);
+              box-shadow: 0 2px 8px rgba(16, 185, 129, 0.1);
             }
 
             &.is-focus {
@@ -1094,14 +1094,14 @@ onUnmounted(() => {
         background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
         border: none;
         border-radius: 14px;
-        box-shadow: 0 6px 20px rgba(30, 144, 255, 0.3);
+        box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3);
         transition: all 0.3s ease;
         color: white;
 
         &:hover {
           background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
           transform: translateY(-3px);
-          box-shadow: 0 8px 25px rgba(30, 144, 255, 0.4);
+          box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
         }
 
         &:disabled {
@@ -1165,7 +1165,7 @@ onUnmounted(() => {
       background: linear-gradient(135deg, var(--primary-500), var(--primary-600));
       border: none;
       border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(30, 144, 255, 0.3);
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
       color: white;
       font-weight: 600;
     }

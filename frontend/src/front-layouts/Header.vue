@@ -207,7 +207,7 @@ watch(() => route.path, newPath => {
 
     .header-left .logo-section {
       &:hover {
-        background: rgba(30, 144, 255, 0.05);
+        background: rgba(16, 185, 129, 0.05);
       }
 
       .system-name {
@@ -226,12 +226,12 @@ watch(() => route.path, newPath => {
 
       &:hover {
         color: var(--primary-color);
-        background: rgba(30, 144, 255, 0.1);
+        background: rgba(16, 185, 129, 0.1);
       }
 
       &.active {
         color: var(--primary-color);
-        background: rgba(30, 144, 255, 0.15);
+        background: rgba(16, 185, 129, 0.15);
       }
     }
 
@@ -245,13 +245,13 @@ watch(() => route.path, newPath => {
         &:hover {
           color: var(--primary-color);
           border-color: var(--primary-color);
-          background: rgba(30, 144, 255, 0.05);
+          background: rgba(16, 185, 129, 0.05);
         }
       }
 
       .user-info .user-profile {
         &:hover {
-          background: rgba(30, 144, 255, 0.05);
+          background: rgba(16, 185, 129, 0.05);
           backdrop-filter: none;
         }
 
@@ -330,7 +330,7 @@ watch(() => route.path, newPath => {
         white-space: nowrap;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         transition: all 0.3s ease;
-        background: linear-gradient(135deg, #ffffff, rgba(30, 144, 255, 0.8));
+        background: linear-gradient(135deg, #ffffff, rgba(16, 185, 129, 0.8));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -432,12 +432,12 @@ watch(() => route.path, newPath => {
           background: linear-gradient(135deg, var(--primary-400), var(--primary-600));
           border: none;
           color: #ffffff;
-          box-shadow: 0 4px 15px rgba(30, 144, 255, 0.3);
+          box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
           
           &:hover {
             background: linear-gradient(135deg, var(--primary-500), var(--primary-700));
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(30, 144, 255, 0.4);
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
           }
         }
         
