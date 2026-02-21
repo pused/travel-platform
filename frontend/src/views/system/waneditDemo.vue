@@ -436,7 +436,7 @@ onBeforeUnmount(() => {
   max-height: 400px;
   overflow-y: auto;
   padding: 10px;
-  border: 1px solid #e4e7ed;
+  border: 1px solid var(--border-light);
   border-radius: 4px;
 }
 
